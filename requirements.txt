@@ -5,3 +5,5 @@ libclang
 psutil
 compiledb
 timeout-decorator
+flask
+pyyaml
