@@ -7,3 +7,5 @@ compiledb
 timeout-decorator
 flask
 pyyaml
+pytest
+pytest-flask
