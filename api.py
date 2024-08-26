@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from src.repository.config_repository import ConfigRepository
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
+
 config_repo = ConfigRepository()
 
 # Read configuration
